@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Políticas, Certificados e Compliance | Datweb Sistemas</title>
+  <meta name="description" content="Conheça os certificados ISO 27001, ISO 27701, ISO 37001 e as políticas de segurança da informação, privacidade LGPD e governança da Datweb Sistemas.">
+  <link rel="canonical" href="https://datweb.com.br/politicas-e-certificados/">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <style>
+    .compliance-header {
+      padding: 70px 0 50px;
+      background: linear-gradient(135deg, var(--color-navy) 0%, #0d284f 100%);
+      color: var(--color-white);
+      text-align: center;
+    }
+    .compliance-header h1 {
+      color: var(--color-white);
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    .compliance-header p {
+      color: #cbd5e1;
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+    .doc-group {
+      background: var(--color-white);
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--color-slate-200);
+      padding: 36px;
+      margin-bottom: 32px;
+      box-shadow: var(--shadow-md);
+    }
+    .doc-group-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--color-navy);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .doc-card-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      background: var(--color-slate-50);
+      border: 1px solid var(--color-slate-200);
+      border-radius: var(--radius-md);
+      margin-top: 14px;
+      transition: all var(--transition-fast);
+    }
+    .doc-card-item:hover {
+      background: var(--color-white);
+      border-color: var(--color-primary);
+      transform: translateX(4px);
+      box-shadow: var(--shadow-sm);
+    }
+    .doc-info {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .doc-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-sm);
+      background: var(--color-primary-soft);
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .doc-title {
+      font-weight: 700;
+      color: var(--color-navy);
+      font-size: 0.95rem;
+    }
+    .doc-meta {
+      font-size: 0.8rem;
+      color: var(--color-slate-400);
+    }
+    .doc-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      background: var(--color-primary-soft);
+      color: var(--color-primary);
+      border: 1px solid var(--color-primary-tint);
+      transition: all var(--transition-fast);
+    }
+    .doc-btn:hover {
+      background: var(--color-primary);
+      color: var(--color-white);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top bar -->
+  <aside class="top-security-bar">
+    <div class="container">
+      <div class="security-badges-row">
+        <span class="security-item">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          Portal de Governança, Risco e Compliance (GRC)
+        </span>
+        <span class="security-item iso-badge">Tripla ISO Ativa</span>
+      </div>
+      <div class="top-contacts-row">
+        <a href="tel:556530299800" class="top-contact-link">(65) 3029-9800</a>
+        <a href="mailto:contato@datweb.com.br" class="top-contact-link">contato@datweb.com.br</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo-link">
+        <img src="assets/images/logo-datweb.png" alt="Datweb Sistemas Logo" class="brand-logo-img">
+      </a>
+      <nav class="nav-menu">
+        <a href="index.html#inicio" class="nav-link">&larr; Voltar ao Início</a>
+        <a href="index.html#produtos" class="nav-link">Soluções</a>
+        <a href="index.html#sobre" class="nav-link">Sobre Nós</a>
+        <a href="index.html#contato" class="nav-link">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <a href="index.html#contato" class="btn-primary">Fale Conosco</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Header Banner -->
+  <div class="compliance-header">
+    <div class="container">
+      <div class="section-tag" style="background: rgba(2, 132, 199, 0.2); border-color: rgba(56, 189, 248, 0.3); color: #38bdf8;">
+        Transparência & Conformidade
+      </div>
+      <h1>Políticas, Certificados e Diretrizes de Segurança</h1>
+      <p>
+        A Datweb Sistemas mantém rigoroso compromisso ético e tecnológico com a segurança da informação, privacidade de dados de acordo com a LGPD e combate ao suborno.
+      </p>
+    </div>
+  </div>
+
+  <!-- Documents Grid -->
+  <main style="padding: 60px 0;">
+    <div class="container" style="max-width: 960px;">
+
+      <!-- Selos Banner -->
+      <div style="background: var(--color-white); border: 1px solid var(--color-slate-200); border-radius: var(--radius-xl); padding: 32px; text-align: center; margin-bottom: 40px; box-shadow: var(--shadow-sm);">
+        <img src="assets/images/selos-iso.png" alt="Selos ISO Datweb" style="max-height: 110px; margin: 0 auto 16px;">
+        <div style="font-weight: 800; font-size: 1.15rem; color: var(--color-navy);">
+          Sistema Integrado de Gestão Homologado
+        </div>
+        <div style="font-size: 0.875rem; color: var(--color-slate-600); margin-top: 4px;">
+          Auditorias periódicas que comprovam a solidez corporativa da Datweb em âmbito nacional e internacional.
+        </div>
+      </div>
+
+      <!-- 1. ISO 27001 -->
+      <section class="doc-group" id="iso27001">
+        <div class="doc-group-title">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#0284c7"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          ISO/IEC 27001 — Sistema de Gestão de Segurança da Informação
+        </div>
+        <p style="font-size: 0.9375rem; color: var(--color-slate-600); line-height: 1.6;">
+          Norma global para implementação, monitoramento e melhoria contínua de controles de segurança da informação em ambientes corporativos e em nuvem.
+        </p>
+
+        <div class="doc-card-item">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">Certificado Oficial ISO/IEC 27001 (Português)</div>
+              <div class="doc-meta">Documento Oficial de Certificação • Datweb Sistemas</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/:b:/s/produto/EX4qkiSFcV5GkmFEaPIds84BOGRqImTOTCLh5yiLDm5MnQ?e=7gpxLl" target="_blank" rel="noopener" class="doc-btn">
+            Visualizar Documento &rarr;
+          </a>
+        </div>
+
+        <div class="doc-card-item">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">ISO/IEC 27001 Certificate (English Version)</div>
+              <div class="doc-meta">International Official Certificate • Datweb Sistemas</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/:b:/s/produto/EZdJPtyTfvtGpAstq51PF0IBjGip6EU-teyU42jwVm1FTg?e=YosQ0Z" target="_blank" rel="noopener" class="doc-btn">
+            View Certificate &rarr;
+          </a>
+        </div>
+      </section>
+
+      <!-- 2. ISO 27701 -->
+      <section class="doc-group" id="iso27701">
+        <div class="doc-group-title">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#0284c7"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8z"/></svg>
+          ISO/IEC 27701 — Gestão da Privacidade da Informação (LGPD)
+        </div>
+        <p style="font-size: 0.9375rem; color: var(--color-slate-600); line-height: 1.6;">
+          Extensão voltada para o tratamento ético, seguro e estritamente auditado de dados pessoais sensíveis, assegurando total aderência à Lei Geral de Proteção de Dados (Lei nº 13.709/2018).
+        </p>
+
+        <div class="doc-card-item">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">Certificado Oficial ISO/IEC 27701 (Português)</div>
+              <div class="doc-meta">Privacidade da Informação & LGPD • Datweb Sistemas</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/sites/seguranca/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2Fseguranca%2FDocumentos%20Compartilhados%2FGeneral%2FSistema%20de%20gest%C3%A3o%20integrado%20%2D%20Datweb%2F4%20%2D%20ISO%2027701%2F3%20%2D%20Certificados%2FCert%20ISO%2027701%20Port%2Epdf&parent=%2Fsites%2Fseguranca%2FDocumentos%20Compartilhados%2FGeneral%2FSistema%20de%20gest%C3%A3o%20integrado%20%2D%20Datweb%2F4%20%2D%20ISO%2027701%2F3%20%2D%20Certificados" target="_blank" rel="noopener" class="doc-btn">
+            Visualizar Documento &rarr;
+          </a>
+        </div>
+
+        <div class="doc-card-item">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">ISO/IEC 27701 Certificate (English Version)</div>
+              <div class="doc-meta">Privacy Information Management • Datweb Sistemas</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/:b:/r/sites/seguranca/Documentos%20Compartilhados/General/Sistema%20de%20gest%C3%A3o%20integrado%20-%20Datweb/4%20-%20ISO%2027701/3%20-%20Certificados/Cert%20ISO%2027701%20Ing.pdf?csf=1&web=1&e=qVKLJB" target="_blank" rel="noopener" class="doc-btn">
+            View Certificate &rarr;
+          </a>
+        </div>
+      </section>
+
+      <!-- 3. ISO 37001 -->
+      <section class="doc-group" id="iso37001">
+        <div class="doc-group-title">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#0284c7"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+          ISO 37001 — Sistema de Gestão Antissuborno & Ética
+        </div>
+        <p style="font-size: 0.9375rem; color: var(--color-slate-600); line-height: 1.6;">
+          Diretrizes estritas para prevenção, detecção e tratamento de riscos de suborno e corrupção em todas as esferas operacionais e contratuais da organização.
+        </p>
+
+        <div class="doc-card-item">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">Certificado Oficial ISO 37001 (Versão em Português)</div>
+              <div class="doc-meta">Governança & Antissuborno • Datweb Sistemas</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/:b:/s/produto/EaGjFoseHkpIsoJ6bhZwQ_YBwXGNTbMt-OXhjUeZbGlVLg?e=cKQcYu" target="_blank" rel="noopener" class="doc-btn">
+            Visualizar Documento &rarr;
+          </a>
+        </div>
+      </section>
+
+      <!-- 4. Políticas Corporativas & Privacidade -->
+      <section class="doc-group" id="privacidade">
+        <div class="doc-group-title">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#0284c7"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+          Políticas e Avisos Institucionais
+        </div>
+
+        <div class="doc-card-item">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">Política de Segurança da Informação</div>
+              <div class="doc-meta">Diretrizes de proteção de ativos e sistemas Datweb</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/:b:/s/produto/EWFt0eYwvIZGlTcYfs35MAkBrv0W2S1iu-_04V3MknP7bw?e=Wf7MxX" target="_blank" rel="noopener" class="doc-btn">
+            Acessar Documento &rarr;
+          </a>
+        </div>
+
+        <div class="doc-card-item">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">Política de Segurança da Informação e Privacidade</div>
+              <div class="doc-meta">Normas de integridade, sigilo e proteção de dados pessoais</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/:b:/s/produto/Ebrx61eRAY1Il8IoyOTDvwEB12-yCAhYJ2zvk9T1P0-FSg?e=37aMLk" target="_blank" rel="noopener" class="doc-btn">
+            Acessar Documento &rarr;
+          </a>
+        </div>
+
+        <div class="doc-card-item">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">Política Antissuborno Corporativa</div>
+              <div class="doc-meta">Diretrizes de compliance, ética e integridade corporativa</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/:b:/s/produto/ETHDUaDdSsdGuoha5BBs3QMBTJQWwS7WEtiqSjwb72lEEA?e=OsyPkJ" target="_blank" rel="noopener" class="doc-btn">
+            Acessar Documento &rarr;
+          </a>
+        </div>
+
+        <div class="doc-card-item" id="cookies">
+          <div class="doc-info">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>
+            </div>
+            <div>
+              <div class="doc-title">Aviso de Privacidade & Uso de Cookies</div>
+              <div class="doc-meta">Instruções aos titulares de dados e direitos previstos na LGPD</div>
+            </div>
+          </div>
+          <a href="https://datwebsistemas.sharepoint.com/:b:/s/produto/EQuZvIzvsOdCoUh67MaKjlQBG4Cj-Bk4LzGbwl7XxOedcg?e=Q9Us9l" target="_blank" rel="noopener" class="doc-btn">
+            Acessar Documento &rarr;
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container text-center" style="font-size: 0.85rem; color: #64748b;">
+      <p>Copyright &copy; 2026 Datweb Sistemas Ltda. R. Cristóvão Colombo, 315, Jd. Imperador, Várzea Grande - MT.</p>
+      <p style="margin-top: 8px;">Telefone: (65) 3029-9800 • E-mail: contato@datweb.com.br</p>
+      <p style="margin-top: 14px;"><a href="index.html" style="color: #38bdf8;">&larr; Voltar para o Portal Principal</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>

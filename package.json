@@ -1,0 +1,12 @@
+{
+  "name": "web-site-datweb-2027",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional e portfólio de soluções Datweb",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node --test tests/*.test.cjs"
+  }
+}

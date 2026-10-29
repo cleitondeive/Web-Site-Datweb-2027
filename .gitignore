@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+.cache/
+backup-*/
+assets/screenshot-*.png
+assets/test_*.png
+work/
+outputs/
+css/test.css
